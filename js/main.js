@@ -14,7 +14,7 @@ let promedio = sumarNotas/3
 if(promedio == 10){
     alert ( nombre + ' ' + "entraste al top 10 te sacaste un: " +promedio +" Felicidades!")
 }
-if( promedio > 6){
+ else if( promedio > 6){
     alert  (nombre + ' ' +'estas aprobado con un: ' +promedio)
 }else {
     alert  (nombre + ' ' +'no aprobaste te sacaste un: ' +promedio)
